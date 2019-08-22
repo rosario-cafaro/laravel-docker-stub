@@ -1,0 +1,43 @@
+version: '3'
+services:
+
+  nginx:
+    build:
+      context: .
+      dockerfile: container-build/nginx/Dockerfile
+    ports:
+      - "80:80"
+    expose:
+      - "80"
+    stdin_open: true
+    tty: true
+    volumes:
+      - "./:/opt/app"
+    command: nginx
+
+  php-fpm:
+    build:
+      context: .
+      dockerfile: container-build/php-fpm/Dockerfile
+    expose:
+      - "9000"
+    volumes:
+      - "./:/opt/app"
+    stdin_open: true
+    tty: true
+    command: php-fpm
+
+  mysql:
+    image: mysql:5.7
+    ports:
+    - "3306:3306"
+    environment:
+    - MYSQL_ROOT_PASSWORD=654321
+    - MYSQL_USER=dbuser
+    - MYSQL_PASSWORD=654321
+    - MYSQL_DATABASE=dbname
+    volumes:
+    - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data: { driver: local }
