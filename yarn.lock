@@ -2354,8 +2354,8 @@ fastparse@^1.1.1:
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
 
 faye-websocket@^0.11.3:
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/faye-websocket/-/faye-websocket-0.11.3.tgz#5c0e9a8968e8912c286639fde977a8b209f2508e"
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/faye-websocket/-/faye-websocket-0.11.4.tgz#7f0d9275cfdd86a1c963dc8b65fcc451edcbb1da"
   dependencies:
     websocket-driver ">=0.5.1"
 
@@ -3523,6 +3523,10 @@ lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
 
+lodash@^4.17.15:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+
 loglevel@^1.6.8:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
@@ -4271,8 +4275,8 @@ pbkdf2@^3.0.3:
     sha.js "^2.4.8"
 
 picomatch@^2.0.4, picomatch@^2.2.1:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.3.tgz#465547f359ccc206d3c48e46a1bcb89bf7ee619d"
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
 
 pify@^2.0.0:
   version "2.3.0"
@@ -4582,8 +4586,8 @@ postcss-selector-parser@^5.0.0-rc.4:
     uniq "^1.0.1"
 
 postcss-selector-parser@^6.0.2:
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.5.tgz#042d74e137db83e6f294712096cb413f5aa612c4"
+  version "6.0.6"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
@@ -5796,8 +5800,8 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
 
 vue-loader@^15.4.2:
-  version "15.9.6"
-  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.9.6.tgz#f4bb9ae20c3a8370af3ecf09b8126d38ffdb6b8b"
+  version "15.9.7"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.9.7.tgz#15b05775c3e0c38407679393c2ce6df673b01044"
   dependencies:
     "@vue/component-compiler-utils" "^3.1.0"
     hash-sum "^1.0.2"
@@ -6041,7 +6045,6 @@ xtend@^4.0.0, xtend@~4.0.1:
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
-
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.3.tgz#b5f259c82cd6e336921efd7bfd8bf560de9eeedf"
 
